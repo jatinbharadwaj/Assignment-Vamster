@@ -7,12 +7,12 @@ var links = document.querySelectorAll('td > div:nth-child(1) a')
 
 
 console.log("Date of Publication:",date_of_publication);
-console.log("Object",Object);
-console.log("Bidding Date",BiddingDate);
+console.log("Object: ",Object);
+console.log("Bidding Date:",BiddingDate);
 
 for(let i=0;i<links.length;i++)
 { 
-	console.log(`Link ${i}`, links[i].href);
+	console.log(`Link ${i}:`, links[i].href);
 }
 
 
